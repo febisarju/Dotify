@@ -1,0 +1,25 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows thumbnail cache
+Thumbs.db
+
+# Ignore IDE/project-specific files (e.g., VS Code)
+.vscode/
+*.code-workspace
+
+# Ignore Node.js modules (if you add them later)
+node_modules/
+package-lock.json
+
+# Ignore build output (if you add a build process later)
+dist/
+build/
+
+# Ignore local settings or temp files
+*.log
+*.tmp
+.env
+
+# Ignore OS-generated files
+*.swp
